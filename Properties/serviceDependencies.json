@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "DefaultConnection"
+    },
+    "secrets1": {
+      "type": "secrets"
+    },
+    "mssql3": {
+      "type": "mssql",
+      "connectionId": "DimDatSetContext",
+      "suggestion": "true",
+      "ignored": "true"
+    },
+    "mssql4": {
+      "type": "mssql",
+      "connectionId": "Dim_Dat_SetContext",
+      "suggestion": "true",
+      "ignored": "true"
+    },
+    "mssql2": {
+      "type": "mssql",
+      "connectionId": "DimDatDataSet"
+    }
+  }
+}
