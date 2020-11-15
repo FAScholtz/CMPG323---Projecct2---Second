@@ -1,0 +1,20 @@
+﻿@{
+    Layout = "guestLayout";
+
+    if (User.IsInRole("Guest"))
+    {
+        Layout = "guestLayout";
+    }
+    if (User.IsInRole("Employee"))
+    {
+        Layout = "employeeLayout";
+    }
+    if (User.IsInRole("Manager"))
+    {
+        Layout = "managerLayout";
+    }
+    if (User.IsInRole("Administrator"))
+    {
+        Layout = "_Layout";
+    }
+}
