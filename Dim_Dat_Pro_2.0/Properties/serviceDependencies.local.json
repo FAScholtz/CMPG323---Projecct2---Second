@@ -8,8 +8,8 @@
       "type": "secrets.user"
     },
     "mssql2": {
-      "type": "mssql.local",
-      "connectionId": "DimDatDataSet",
+      "type": "mssql.onprem",
+      "connectionId": "DimDatSetConnection",
       "secretStore": "LocalSecretsFile"
     }
   }

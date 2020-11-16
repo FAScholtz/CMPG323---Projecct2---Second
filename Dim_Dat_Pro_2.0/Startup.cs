@@ -4,7 +4,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.EntityFrameworkCore;
@@ -13,6 +12,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Dim_Dat_Pro_2._0.Models;
+using Dim_Dat_Pro_2._0.Models.Entities;
 
 namespace Dim_Dat_Pro_2._0
 {
@@ -28,12 +28,13 @@ namespace Dim_Dat_Pro_2._0
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<DimDatSetContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DimDatDataSet")));
+            var connectionString = Configuration.GetConnectionString("DimDatSetConnection");
+            services.AddDbContext<CMPG323_Project2_datasetContext>(options => options.UseSqlServer(connectionString));
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddIdentity<ApplicationUser, IdentityRole>()
                     .AddEntityFrameworkStores<ApplicationDbContext>()
-                    .AddDefaultUI()
-                    .AddDefaultTokenProviders();
+                    .AddDefaultTokenProviders()
+                    .AddDefaultUI();
             services.AddControllersWithViews();
             services.AddRazorPages();
         }        
@@ -44,7 +45,6 @@ namespace Dim_Dat_Pro_2._0
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseDatabaseErrorPage();
             }
             else
             {
