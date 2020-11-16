@@ -16,7 +16,7 @@ namespace Dim_Dat_Pro_2._0.Controllers
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
-        }
+        }       
 
         public IActionResult Index()
         {

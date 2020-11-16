@@ -194,7 +194,6 @@ C:\Users\Francois Scholtz\Desktop\Practical Exercise\CMPG323 - Practical 2\CMPG3
 C:\Users\Francois Scholtz\Desktop\Practical Exercise\CMPG323 - Practical 2\CMPG323---Projecct2---Second\Dim_Dat_Pro_2.0\obj\Debug\netcoreapp5.0.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Users\Francois Scholtz\Desktop\Practical Exercise\CMPG323 - Practical 2\CMPG323---Projecct2---Second\Dim_Dat_Pro_2.0\obj\Debug\netcoreapp5.0.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 C:\Users\Francois Scholtz\Desktop\Practical Exercise\CMPG323 - Practical 2\CMPG323---Projecct2---Second\Dim_Dat_Pro_2.0\obj\Debug\netcoreapp5.0.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\Francois Scholtz\Desktop\Practical Exercise\CMPG323 - Practical 2\CMPG323---Projecct2---Second\Dim_Dat_Pro_2.0\obj\Debug\netcoreapp5.0.0\Razor\Views\Home\User_Management.cshtml.g.cs
 C:\Users\Francois Scholtz\Desktop\Practical Exercise\CMPG323 - Practical 2\CMPG323---Projecct2---Second\Dim_Dat_Pro_2.0\obj\Debug\netcoreapp5.0.0\Razor\Views\RoleManager\Index.cshtml.g.cs
 C:\Users\Francois Scholtz\Desktop\Practical Exercise\CMPG323 - Practical 2\CMPG323---Projecct2---Second\Dim_Dat_Pro_2.0\obj\Debug\netcoreapp5.0.0\Razor\Views\Shared\Analytics.cshtml.g.cs
 C:\Users\Francois Scholtz\Desktop\Practical Exercise\CMPG323 - Practical 2\CMPG323---Projecct2---Second\Dim_Dat_Pro_2.0\obj\Debug\netcoreapp5.0.0\Razor\Views\Shared\employeeLayout.cshtml.g.cs
