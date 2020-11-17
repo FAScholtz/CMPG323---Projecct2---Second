@@ -19,9 +19,14 @@ namespace Dim_Dat_Pro_2._0.Controllers
         }
 
         // GET: Cmpg323Project2Dataset
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string filterString)
         {
-            return View(await _context.Cmpg323Project2Datasets.ToListAsync());
+            var record = from r in _context.Cmpg323Project2Datasets select r;
+            if (!String.IsNullOrEmpty(filterString))
+            {
+                record = record.Where(r => r.Department.Contains(filterString));
+            }         
+            return View(await record.ToListAsync());
         }
 
         // GET: Cmpg323Project2Dataset/Details/5
