@@ -223,3 +223,4 @@ C:\Users\Francois Scholtz\Desktop\Practical Exercise\CMPG323 - Practical 2\CMPG3
 C:\Users\Francois Scholtz\Desktop\Practical Exercise\CMPG323 - Practical 2\CMPG323---Projecct2---Second\Dim_Dat_Pro_2.0\obj\Debug\netcoreapp5.0.0\Razor\Views\Cmpg323Project2Dataset\Details.cshtml.g.cs
 C:\Users\Francois Scholtz\Desktop\Practical Exercise\CMPG323 - Practical 2\CMPG323---Projecct2---Second\Dim_Dat_Pro_2.0\obj\Debug\netcoreapp5.0.0\Razor\Views\Cmpg323Project2Dataset\Edit.cshtml.g.cs
 C:\Users\Francois Scholtz\Desktop\Practical Exercise\CMPG323 - Practical 2\CMPG323---Projecct2---Second\Dim_Dat_Pro_2.0\obj\Debug\netcoreapp5.0.0\Razor\Views\Cmpg323Project2Dataset\Index.cshtml.g.cs
+C:\Users\Francois Scholtz\Desktop\Practical Exercise\CMPG323 - Practical 2\CMPG323---Projecct2---Second\Dim_Dat_Pro_2.0\bin\Debug\netcoreapp5.0.0\aws-beanstalk-tools-defaults.json

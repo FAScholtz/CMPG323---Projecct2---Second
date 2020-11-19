@@ -1,0 +1,25 @@
+
+{
+    "comment" : "This file is used to help set default values when using the dotnet CLI extension Amazon.ElasticBeanstalk.Tools. For more information run \"dotnet eb --help\" from the project root.",
+    "profile" : "default",
+    "region"  : "af-south-1",
+    "application" : "DimDatPro20",
+    "environment" : "DimDatPro20-dev",
+    "cname"       : "dimdatpro20-dev",
+    "solution-stack" : "64bit Amazon Linux 2 v2.0.4 running .NET Core",
+    "environment-type" : "SingleInstance",
+    "instance-profile" : "aws-elasticbeanstalk-ec2-role",
+    "service-role"     : "aws-elasticbeanstalk-service-role",
+    "health-check-url" : "/",
+    "instance-type"    : "c5.18xlarge",
+    "key-pair"         : "DimDatPro",
+    "iis-website"      : "Default Web Site",
+    "app-path"         : "/",
+    "enable-xray"      : false,
+    "configuration"    : "Debug",
+    "framework"        : "netcoreapp5.0.0",
+    "self-contained"   : false,
+    "enhanced-health-type" : "basic",
+    "additional-options"   : "\"aws:autoscaling:launchconfiguration,SecurityGroups\"=\"sg-25e7504d\";\"aws:ec2:vpc,Subnets\"=\"subnet-44f1102d\"",
+    "proxy-server"         : "nginx"
+}

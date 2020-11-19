@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA75nrMttxi0aSSHvvzAgfrwAAAAACAAAAAAAQZgAAAAEAACAAAACmJY7q2RJg7TwBY7JDKPlv0NvbgJ/FITex0vHPSIz6TQAAAAAOgAAAAAIAACAAAACaUb2rKKdynUanPyyQwCJXS5/mMYQlPZDV/Iizv8IgKIAAAAC6AkXKj3V+v+egNvFC5/5ZvoIrKed8SRyQ2u8etrOXbKjUv56lXcF8dknMgvz8QDoZ4MZFYgnH+YmPXHTMgFGfmpI8KJzLYzcfVnEAVYvqWxr1yYOFaPSJM0W2oGeZXiqBzaXEWwV/ZLdYsQ3bD9ZBj+NpmC7XRElRcdPXY2Nk6UAAAABuSOcAXLoYc+Z8vhllcZ6vb+OVxKXvYya5QLjBzJi/w6prgMBGRm8HLBjhaqaSg46mYX8iqVMHzM9kA7bSmzkv</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="Dim_Dat_Pro_2._0.Data.ApplicationDbContext">
+      <Value>Data Source=DESKTOP-AAB3KIS\SQLEXPRESS%3bInitial Catalog=CMPG323_Project2_dataset%3bIntegrated Security=True</Value>
+    </EFMigrations>
+    <EFMigrations Include="Dim_Dat_Pro_2._0.Models.Entities.CMPG323_Project2_datasetContext">
+      <Value>Data Source=DESKTOP-AAB3KIS\SQLEXPRESS%3bInitial Catalog=CMPG323_Project2_dataset%3bIntegrated Security=True</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

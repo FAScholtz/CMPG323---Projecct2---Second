@@ -35,7 +35,7 @@ namespace Dim_Dat_Pro_2._0.Data
                 var user = await userManager.FindByEmailAsync(defaultUser.Email);
                 if (user == null)
                 {
-                    await userManager.CreateAsync(defaultUser, "123Pa$$word.");
+                    await userManager.CreateAsync(defaultUser, "Administrator");
                     await userManager.AddToRoleAsync(defaultUser, Enums.Supported_Roles.Roles.Guest.ToString());
                     await userManager.AddToRoleAsync(defaultUser, Enums.Supported_Roles.Roles.Employee.ToString());
                     await userManager.AddToRoleAsync(defaultUser, Enums.Supported_Roles.Roles.Manager.ToString());

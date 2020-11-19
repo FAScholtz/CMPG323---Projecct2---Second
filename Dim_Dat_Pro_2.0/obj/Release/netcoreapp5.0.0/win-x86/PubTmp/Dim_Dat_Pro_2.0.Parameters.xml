@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="DimDatPro2020201118135626" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Francois\ Scholtz\\Desktop\\Practical\ Exercise\\CMPG323\ -\ Practical\ 2\\CMPG323---Projecct2---Second\\Dim_Dat_Pro_2\.0\\obj\\Release\\netcoreapp5\.0\.0\\win-x86\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>
